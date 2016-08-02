@@ -12,6 +12,9 @@ img , a, div { outline: none;}
 
 body{ font-family:Arial,Helvetica, sans-serif;font-size:13px;background:url(/css_js/bg.gif) 0 0 repeat #aea997;}
 #headerall{ padding:0;}
+
+
+
 #maincontent{ width:1040px; margin:0 auto; background:#f8f8f8; }
 #headertop{height:149px; width:1040px; margin:0 auto; margin-top:40px;background:url(/css_js/main-bg.jpg) center 0 no-repeat #f5f5f5; border-bottom: 1px solid #e9e9e9;}
 #header{ font-size:13px;height:60px; width:1030px;margin:0 auto; padding:0 0 0 10px; background: url(/css_js/menu.gif) 0 0 repeat-x #fff;}
