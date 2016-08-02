@@ -1,0 +1,61 @@
+.blueberry { margin: 0 ;height:422px;
+	width:918px; }
+.blueberry .slides {background:#000 url(/css_js/poker.gif)  center center no-repeat;
+	height:422px;
+	width:918px;
+	display: block;
+	overflow: hidden;
+}
+.blueberry .slides li {
+	height:422px;
+	width:918px;
+	position: absolute;
+	top: 0;
+	left: 0;
+	overflow: hidden;
+	display:none;
+}
+.blueberry .slides li img {
+/*	display: block;*/
+	width: 918px;
+}
+.blueberry .slides li.active { display: block; position: relative;}
+.blueberry .crop li img { width: auto; }
+
+.blueberry .pager {
+	position:relative;
+	top:-27px;
+	height: 40px;
+	padding-left:373px;
+	text-align: left;
+}
+.blueberry .pager li {margin:0 7px 0 8px; display: inline-block;height:15px; width:15px; }
+.blueberry .pager li a,
+.blueberry .pager li a span {
+	display: block;
+	height: 4px;
+	width: 4px;
+}
+.blueberry .pager li a {
+	
+	
+	padding: 18px 8px;
+-webkit-border-radius: 6px;
+   -moz-border-radius: 6px;
+	border-radius: 6px;
+}
+.blueberry .pager li a span {margin:0 5px;	height:40px; width:40px;	overflow: hidden; text-indent: -9999px;-webkit-border-radius: 2px;   -moz-border-radius: 2px;	border-radius: 2px;
+}
+.blueberry .pager li.active a span {height:40px; width:40px; }
+
+.blueberry .pager li a #li0 {background:url(/css_js/li0.png) 0 0 no-repeat;}
+.blueberry .pager li.active a #li0 { background:url(/css_js/li0.png) 0 0 no-repeat;}
+
+.blueberry .pager li a #li1 { background:url(/css_js/li1.png) 0 0 no-repeat;}
+.blueberry .pager li.active a #li1 {background:url(/css_js/li1.png) 0 0 no-repeat;}
+
+.blueberry .pager li a #li2 { background:url(/css_js/li2.png) 0 0 no-repeat;}
+.blueberry .pager li.active a #li2 { background:url(/css_js/li2.png) 0 0 no-repeat;}
+
+.blueberry .pager li a #li3 { background:url(/css_js/li3.png) 0 0 no-repeat;}
+.blueberry .pager li.active a #li3 {background:url(/css_js/li3.png) 0 0 no-repeat;}
