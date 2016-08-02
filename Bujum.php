@@ -8,7 +8,7 @@ header('Content-Type: text/html; charset=utf-8');
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml" lang="hy"><head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>Բուժում «ՕԼԻՄՊԻԱ» ԱՌՈՂՋԱՐԱՆԱՅԻՆ ԵՎ ՀՅՈՒՐԱՆՈՑԱՅԻՆ ՀԱՄԱԼԻՐ</title>
+<title><?php include"./title.php"  ?></title>
 <meta http-equiv="expires" content="0" />
 <meta http-equiv="Content-Script-Type" content="text/javascript" />
 <meta http-equiv="content-style-type" content="text/css" />
@@ -22,19 +22,19 @@ header('Content-Type: text/html; charset=utf-8');
 <meta name="Resource-type" content="Document" />
 <meta name="Revisit" content="7" />
 <meta name="Robots" content="all" />
-<link rel="stylesheet" media="screen" type="text/css" href="/styles/main.css" />
+<link rel="stylesheet" media="screen" type="text/css" href="/css_js/main.css" />
 <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 <script src="http://code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
-<script type="text/javascript" src="/js/jquery.js"></script>
-<script type="text/javascript" src="/js/blueberry.js"></script>
-<link rel="stylesheet"  type="text/css" href="/styles/blueberry.css" />
+<script type="text/javascript" src="/css_js/jquery.js"></script>
+<script type="text/javascript" src="/css_js/blueberry.js"></script>
+<link rel="stylesheet"  type="text/css" href="/css_js/blueberry.css" />
 
 <style type="text/css" >
 body,input,textarea{font: 13px "Arian AMU", "Arial AMU", "Arial Unicode", Sylfaen, sans-serif;}
 #leftmenu a{font-size:13px;}
 .drop a,.drop a:visited,.drop a:active{font-size:13px;}
 </style>
-<!--[if IE 6]><script src="/js/belat.js"></script><script>DD_belatedPNG.fix('img,input,div,a');</script><![endif]-->
+<!--[if IE 6]><script src="/css_js/belat.js"></script><script>DD_belatedPNG.fix('img,input,div,a');</script><![endif]-->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
 (function (d, w, c) {

@@ -1,7 +1,9 @@
 <?php 
 header('Content-Type: text/html; charset=utf-8');
 
+$wiliam_saroyan_says="blabla2";
 
+$title="Գլխավոր «ՕԼԻՄՊԻԱ» ԱՌՈՂՋԱՐԱՆԱՅԻՆ ԵՎ ՀՅՈՒՐԱՆՈՑԱՅԻՆ ՀԱՄԱԼԻՐ";
 
 ?>
 
@@ -11,7 +13,7 @@ header('Content-Type: text/html; charset=utf-8');
 <html xmlns="http://www.w3.org/1999/xhtml" lang="hy">
     <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
-<title>Գլխավոր «ՕԼԻՄՊԻԱ» ԱՌՈՂՋԱՐԱՆԱՅԻՆ ԵՎ ՀՅՈՒՐԱՆՈՑԱՅԻՆ ՀԱՄԱԼԻՐ</title>
+<title><?php include"./title.php"  ?></title>
 <meta http-equiv="expires" content="0">
 <meta http-equiv="Content-Script-Type" content="text/javascript">
 <meta http-equiv="content-style-type" content="text/css">
@@ -45,7 +47,7 @@ body,input,textarea{font: 13px "Arian AMU", "Arial AMU", "Arial Unicode", Sylfae
 #leftmenu a{font-size:13px;}
 .drop a,.drop a:visited,.drop a:active{font-size:13px;}
 </style>
-<!--[if IE 6]><script src="/js/belat.js"></script><script>DD_belatedPNG.fix('img,input,div,a');</script><![endif]-->
+<!--[if IE 6]><script src="/css_js/belat.js"></script><script>DD_belatedPNG.fix('img,input,div,a');</script><![endif]-->
 
     
 </head>
@@ -170,7 +172,7 @@ body,input,textarea{font: 13px "Arian AMU", "Arial AMU", "Arial Unicode", Sylfae
 <div class="frpta">
 <div class="block1"><a target="_blank" href="https://www.facebook.com/olympia.sanatorium"></a></div>
 <div class="block2"><a target="_blank" href="https://twitter.com/"></a></div>
-<div class="block3">William Saroyan, talented American writer has sincerely admired Jermuk, and during one of his visits said:</div>
+<div class="block3"><?php echo $wiliam_saroyan_says;  ?>William Saroyan, talented American writer has sincerely admired Jermuk, and during one of his visits said:</div>
 <div class="clear"></div>
 </div>
 </div>
